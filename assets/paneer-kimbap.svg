@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Paneer kimbap illustration</title>
+  <desc id="desc">Stylized paneer kimbap rolls with herb and vegetable filling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef4e8"/>
+      <stop offset="100%" stop-color="#dbe7cf"/>
+    </linearGradient>
+    <linearGradient id="seaweed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#162318"/>
+      <stop offset="100%" stop-color="#2f3f30"/>
+    </linearGradient>
+    <radialGradient id="rice" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#fffef8"/>
+      <stop offset="100%" stop-color="#ece9df"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect x="110" y="150" width="580" height="240" rx="120" fill="#f9f6ef"/>
+  <g transform="translate(170 255)">
+    <g>
+      <circle cx="0" cy="0" r="58" fill="url(#seaweed)"/>
+      <circle cx="0" cy="0" r="43" fill="url(#rice)"/>
+      <rect x="-16" y="-15" width="18" height="18" rx="3" fill="#f2dd8f"/>
+      <rect x="6" y="-5" width="16" height="16" rx="3" fill="#f2dd8f"/>
+      <circle cx="-14" cy="15" r="9" fill="#8cb64a"/>
+      <circle cx="12" cy="17" r="8" fill="#dd6a46"/>
+    </g>
+    <g transform="translate(102 -8)">
+      <circle cx="0" cy="0" r="58" fill="url(#seaweed)"/>
+      <circle cx="0" cy="0" r="43" fill="url(#rice)"/>
+      <rect x="-14" y="-16" width="18" height="18" rx="3" fill="#f2dd8f"/>
+      <rect x="8" y="-4" width="16" height="16" rx="3" fill="#f2dd8f"/>
+      <circle cx="-12" cy="16" r="9" fill="#8cb64a"/>
+      <circle cx="12" cy="16" r="8" fill="#dd6a46"/>
+    </g>
+    <g transform="translate(204 -14)">
+      <circle cx="0" cy="0" r="58" fill="url(#seaweed)"/>
+      <circle cx="0" cy="0" r="43" fill="url(#rice)"/>
+      <rect x="-15" y="-15" width="18" height="18" rx="3" fill="#f2dd8f"/>
+      <rect x="7" y="-5" width="16" height="16" rx="3" fill="#f2dd8f"/>
+      <circle cx="-13" cy="16" r="9" fill="#8cb64a"/>
+      <circle cx="11" cy="16" r="8" fill="#dd6a46"/>
+    </g>
+    <g transform="translate(306 -20)">
+      <circle cx="0" cy="0" r="58" fill="url(#seaweed)"/>
+      <circle cx="0" cy="0" r="43" fill="url(#rice)"/>
+      <rect x="-16" y="-15" width="18" height="18" rx="3" fill="#f2dd8f"/>
+      <rect x="6" y="-5" width="16" height="16" rx="3" fill="#f2dd8f"/>
+      <circle cx="-12" cy="16" r="9" fill="#8cb64a"/>
+      <circle cx="12" cy="16" r="8" fill="#dd6a46"/>
+    </g>
+  </g>
+  <text x="56" y="86" font-size="44" font-family="Georgia, serif" fill="#3f5d31">Paneer Kimbap</text>
+</svg>
