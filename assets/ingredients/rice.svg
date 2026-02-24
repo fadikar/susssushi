@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'>
+<rect width='800' height='500' fill='#f4efe4'/>
+<ellipse cx='400' cy='290' rx='230' ry='130' fill='#d7d0c2'/>
+<ellipse cx='400' cy='270' rx='210' ry='110' fill='#fffdf7'/>
+<circle cx='350' cy='250' r='7' fill='#ece9e0'/><circle cx='410' cy='240' r='7' fill='#ece9e0'/><circle cx='450' cy='280' r='7' fill='#ece9e0'/>
+<text x='60' y='70' font-size='44' font-family='Georgia' fill='#5b4e3c'>Short-Grain Rice</text>
+</svg>

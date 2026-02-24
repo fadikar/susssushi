@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'>
+<rect width='800' height='500' fill='#eef0f2'/>
+<circle cx='260' cy='265' r='80' fill='#f2d98e'/>
+<circle cx='260' cy='265' r='38' fill='#f7f2de'/>
+<ellipse cx='430' cy='250' rx='90' ry='45' fill='#d57f56'/>
+<ellipse cx='560' cy='285' rx='95' ry='55' fill='#f08b5c'/>
+<text x='60' y='70' font-size='44' font-family='Georgia' fill='#3f4a56'>Protein Layer</text>
+</svg>

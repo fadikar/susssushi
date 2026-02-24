@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'>
+<rect width='800' height='500' fill='#e9efe6'/>
+<rect x='170' y='90' width='460' height='320' rx='20' fill='#213329'/>
+<rect x='210' y='130' width='380' height='240' rx='14' fill='#2f4639'/>
+<text x='60' y='70' font-size='44' font-family='Georgia' fill='#1f2f24'>Gim Seaweed</text>
+</svg>
