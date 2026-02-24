@@ -77,6 +77,18 @@ nav {
   color: var(--gold);
 }
 
+.nav-links .nav-priority {
+  background: var(--red);
+  color: var(--white);
+  padding: 8px 12px;
+  border-radius: 999px;
+}
+
+.nav-links .nav-priority:hover {
+  color: var(--white);
+  background: var(--dark-red);
+}
+
 .nav-links a:focus-visible {
   color: var(--gold);
   outline: 2px solid var(--gold);
@@ -87,7 +99,7 @@ nav {
 /* ===== Hero ===== */
 #hero {
   position: relative;
-  min-height: 92vh;
+  min-height: 68vh;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -97,7 +109,7 @@ nav {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('assets/banner-kimbap.svg');
+  background-image: url('https://commons.wikimedia.org/wiki/Special:FilePath/Kimbap%20-Korean%20sushi-%20(6380679527).jpg');
   background-size: cover;
   background-position: center;
   filter: brightness(0.38);
@@ -170,6 +182,73 @@ nav {
 
 .btn-primary svg {
   flex-shrink: 0;
+}
+
+.btn-secondary {
+  display: inline-block;
+  margin-left: 12px;
+  color: var(--white);
+  text-decoration: none;
+  border: 1.5px solid rgba(255,255,255,0.65);
+  border-radius: 999px;
+  padding: 13px 22px;
+  font-weight: 700;
+}
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+/* ===== Quick Order Strip ===== */
+#quick-order {
+  background: var(--dark);
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.quick-order-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.quick-card {
+  display: block;
+  text-decoration: none;
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  background: var(--white);
+  color: var(--dark);
+  border: 3px solid transparent;
+}
+
+.quick-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+
+.quick-card p {
+  color: #4a4a4a;
+  font-size: 0.98rem;
+}
+
+.quick-card .quick-label {
+  color: var(--red);
+  font-size: 0.76rem;
+  letter-spacing: 1.8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.quick-card:hover {
+  border-color: var(--red);
+}
+
+.quick-card-order {
+  background: #f8f2e3;
 }
 
 /* ===== Section base ===== */
@@ -326,6 +405,7 @@ section {
 /* ===== Menu ===== */
 #menu {
   background: var(--light-bg);
+  border-top: 4px solid var(--red);
 }
 
 .menu-header {
@@ -416,6 +496,7 @@ section {
 /* ===== Order ===== */
 #order {
   background: var(--white);
+  border-top: 4px solid var(--gold);
 }
 
 .order-grid {
@@ -475,6 +556,7 @@ section {
   border-radius: var(--radius);
   padding: 44px 40px;
   color: var(--white);
+  margin-top: 190px;
 }
 
 .order-cta .whatsapp-icon {
@@ -587,12 +669,27 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .quick-order-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 12px;
+  }
+
   .order-cta {
     padding: 32px 24px;
+    margin-top: 0;
   }
 
   .hero-content {
     padding: 0 6%;
+  }
+
+  #hero {
+    min-height: 56vh;
   }
 }
 
