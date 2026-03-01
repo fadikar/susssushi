@@ -25,12 +25,17 @@
     </ul>
   </nav>
 
+  <div class="top-announcement" role="status" aria-label="New menu updates">
+    <p><strong>What's New:</strong> Korean Style Chicken Wings + Avocado Sushi now available</p>
+    <a href="#menu">See Menu</a>
+  </div>
+
   <!-- ===== Hero ===== -->
   <section id="hero">
     <div class="hero-bg" role="img" aria-label="Freshly made Korean sushi rolls"></div>
     <div class="hero-content">
       <div class="hero-badge">🏠 Home Kitchen · Kharagpur</div>
-      <h1>Handcrafted <em>Korean Sushi</em> Made with Love</h1>
+      <h1>Handcrafted <em>Korean Small Bites</em></h1>
       <p>Fresh, wholesome kimbap rolls made daily — only the finest ingredients, straight from Sus's home kitchen to your hands.</p>
       <a
         href="https://wa.me/919332072203?text=Hi%20Susama!%20I'd%20like%20to%20order%20sushi%20from%20Sus's%20Sushi%20%F0%9F%8D%B1"
@@ -52,7 +57,7 @@
     <div class="quick-order-grid">
       <a href="#menu" class="quick-card">
         <h3>See Menu</h3>
-        <p>3 roll options · ₹200 per plate · 8 pieces each</p>
+        <p>Korean Sushi · Korean Style Chicken Wings</p>
       </a>
       <a href="#order" class="quick-card quick-card-order">
         <p class="quick-label">Order Now</p>
@@ -165,76 +170,88 @@
   <!-- ===== Menu ===== -->
   <section id="menu">
     <div class="menu-header">
-      <p class="section-label">Our Menu</p>
-      <h2 class="section-title">Pick Your <span>Favourite Roll</span></h2>
-      <p class="section-desc">Each plate comes with 8 hand-rolled pieces made fresh to order.</p>
-      <div class="price-badge">
-        ₹200 per plate &nbsp;·&nbsp; 8 pieces
-      </div>
+      <h2 class="section-title menu-main-title">Our <span>Menu</span></h2>
+      <p class="section-desc">Pick from our signature Korean small bites, made fresh in a home kitchen.</p>
+      <p class="section-desc">For bulk order pricing, please contact <strong>Susama</strong> on WhatsApp.</p>
     </div>
 
-    <div class="menu-grid">
-
-      <!-- Chicken Sushi -->
-      <div class="menu-card">
-        <!-- Local fallback: src="assets/chicken-kimbap.svg" -->
+    <div class="menu-restaurant">
+      <h3 class="menu-group-title">Small Bites</h3>
+      <article class="menu-main-card">
         <img
-          class="menu-card-img"
+          class="menu-main-image"
           src="https://commons.wikimedia.org/wiki/Special:FilePath/Kimbap%20-Korean%20sushi-%20(6380679527).jpg"
-          alt="Chicken kimbap rolls"
+          alt="Korean sushi kimbap platter"
           loading="lazy"
         />
-        <div class="menu-card-body">
-          <span class="menu-card-emoji">🍗</span>
-          <h3 class="menu-card-title">Chicken Sushi</h3>
-          <p class="menu-card-desc">
-            Tender, lightly seasoned chicken strips nestled with crisp vegetables and fluffy sesame rice,
-            all wrapped in a sheet of roasted seaweed. A crowd favourite for good reason.
-          </p>
-          <span class="menu-card-price">₹200 / plate</span>
+        <div class="menu-main-content">
+          <div class="menu-main-head">
+            <h3>Korean Sushi</h3>
+            <p>Kimbap-style sushi rolls made with seasoned short-grain rice, roasted seaweed, crunchy vegetables, and your choice of filling. Available in 4 options: chicken, shrimp, paneer, and avocado, served as 8 pieces per plate.</p>
+          </div>
+          <div class="submenu-list" aria-label="Korean sushi options">
+            <div class="submenu-row">
+              <span class="submenu-item">Chicken Sushi</span>
+              <span class="submenu-price">₹200</span>
+            </div>
+            <div class="submenu-row">
+              <span class="submenu-item">Shrimp Sushi</span>
+              <span class="submenu-price">₹200</span>
+            </div>
+            <div class="submenu-row">
+              <span class="submenu-item">Paneer Sushi</span>
+              <span class="submenu-price">₹200</span>
+            </div>
+            <div class="submenu-row">
+              <span class="submenu-item">Avocado Sushi <span class="new-badge">NEW</span></span>
+              <span class="submenu-price">₹200</span>
+            </div>
+          </div>
         </div>
-      </div>
+      </article>
 
-      <!-- Paneer Sushi -->
-      <div class="menu-card">
-        <!-- Local fallback: src="assets/paneer-kimbap.svg" -->
+      <article class="menu-main-card">
         <img
-          class="menu-card-img"
-          src="https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20Kimbap%20Korean%20food%2002.jpg"
-          alt="Paneer kimbap rolls with vegetables"
+          class="menu-main-image"
+          src="https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20wings.jpg"
+          alt="Korean style chicken wings"
           loading="lazy"
         />
-        <div class="menu-card-body">
-          <span class="menu-card-emoji">🧀</span>
-          <h3 class="menu-card-title">Paneer Sushi</h3>
-          <p class="menu-card-desc">
-            Soft cubes of fresh Indian cottage cheese marinated in herbs, paired with colourful veggies
-            and sesame-scented rice. A delightful vegetarian option that's rich and satisfying.
-          </p>
-          <span class="menu-card-price">₹200 / plate</span>
+        <div class="menu-main-content">
+          <div class="menu-main-head">
+            <h3>Korean Style Chicken Wings</h3>
+            <p>Juicy chicken wings fried until crisp and coated in savory soy garlic flavor. One plate contains 6 pieces.</p>
+          </div>
+          <div class="submenu-list" aria-label="Korean style chicken wing options">
+            <div class="submenu-row">
+              <span class="submenu-item">Soy Garlic Flavor (6 pieces) <span class="new-badge">NEW</span></span>
+              <span class="submenu-price">₹150</span>
+            </div>
+          </div>
         </div>
-      </div>
+      </article>
 
-      <!-- Shrimp Sushi -->
-      <div class="menu-card">
-        <!-- Local fallback: src="assets/shrimp-kimbap.svg" -->
+      <h3 class="menu-group-title">Large Bites</h3>
+      <article class="menu-main-card menu-main-card-soon">
         <img
-          class="menu-card-img"
-          src="https://commons.wikimedia.org/wiki/Special:FilePath/Fried-shrimp.jpg"
-          alt="Shrimp kimbap rolls"
+          class="menu-main-image"
+          src="assets/banner-kimbap.svg"
+          alt="Large bite menu section coming soon"
           loading="lazy"
         />
-        <div class="menu-card-body">
-          <span class="menu-card-emoji">🦐</span>
-          <h3 class="menu-card-title">Shrimp Sushi</h3>
-          <p class="menu-card-desc">
-            Succulent, perfectly cooked shrimp with a hint of seasoning, layered with garden-fresh
-            vegetables in a classic kimbap roll. A coastal twist on a Korean classic.
-          </p>
-          <span class="menu-card-price">₹200 / plate</span>
+        <div class="menu-main-content">
+          <div class="menu-main-head">
+            <h3>Coming Soon</h3>
+            <p>We are building a new large-bite lineup for fuller meals. This section will be updated soon with new items, portions, and pricing.</p>
+          </div>
+          <div class="submenu-list" aria-label="Large bites coming soon">
+            <div class="submenu-row">
+              <span class="submenu-item">New meal options in development</span>
+              <span class="submenu-price">Soon</span>
+            </div>
+          </div>
         </div>
-      </div>
-
+      </article>
     </div>
   </section>
 
@@ -252,7 +269,7 @@
             <div class="info-card-icon">⏰</div>
             <div class="info-card-content">
               <h4>Order Deadline</h4>
-              <p>Place your order by <strong>11:00 AM</strong> for <strong>same-day pickup</strong>. Orders after 4 PM are booked for the next day.</p>
+              <p>Place your order by <strong>11:00 AM</strong> for <strong>same-day pickup</strong>. Orders after 11 AM are booked for the next day.</p>
             </div>
           </div>
 
